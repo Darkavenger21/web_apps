@@ -1,0 +1,42 @@
+body{
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.digit{
+    font-size: 120px;
+    font-weight: bold;
+}
+
+.txt{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#btn-container{
+    text-align: center;
+    margin: 40px;
+}
+
+.btn{
+    padding: 10px 30px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px 15px;
+    color: aliceblue;
+    border: 5px;
+    cursor: pointer;
+}
+
+#start{
+    background-color: forestgreen;
+}
+#stop{
+    background-color: crimson;
+}
+#reset{
+    background-color: cornflowerblue;
+}
